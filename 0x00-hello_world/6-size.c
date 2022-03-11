@@ -11,6 +11,10 @@ int main(void)
 	long long int d;
 	float f;
 
-	printf("Size of char: 1 byte(s)\nSize of an int: 4 byte(s)\nSize of long int: 4 byte(s)\nSize of long long int: 4 byte(s)\nSize of float: 4 byte(s)\n");
+	printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	prinf("Size of long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	prinf("Size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
