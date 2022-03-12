@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - start point
+ * main - printing single digits numbers
  * Return: 0 if successful
  */
 int main(void)
 {
 	int n;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
-	printf("\n");
+	for (n = '0'; n <= '9'; n++)
+		putchar(n);
+	putchar('\n');
 	return (0);
 }
