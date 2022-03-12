@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - printing lower case alphabets except q and e
- * Return 0 if successfuly exited
+ * Return: 0 if successfuly exited
  */
 int main(void)
 {
@@ -17,5 +17,6 @@ int main(void)
 			putchar(lcase);
 	}
 	putchar('\n');
+
 	return (0);
 }
