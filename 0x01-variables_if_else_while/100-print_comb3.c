@@ -7,14 +7,14 @@ int main(void)
 {
 	int a, b;
 
-	for (a='0';n a <= '9'; a++)
+	for (a='0'; a <= '9'; a++)
 	{
 		for (b = '0'; b<= '9'; b++)
 		{
-			if (c < a)
+			if (a < b)
 			{
 				putchar(a);
-				putchar(i);
+				putchar(b);
 				
 				if (a != '8' || (a == '8' && i !=  '9' ))
 				
