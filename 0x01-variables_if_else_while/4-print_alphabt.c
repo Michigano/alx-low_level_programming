@@ -7,8 +7,9 @@
 int main(void)
 {
 	char lcase, e, q;
-	e = 'e'
-	q = 'q'
+
+	e = 'e';
+	q = 'q';
 
 	for (lcase = 'a'; lcase <= 'z'; lcase++)
 	{
