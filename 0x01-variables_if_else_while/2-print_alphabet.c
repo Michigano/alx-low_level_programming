@@ -11,6 +11,6 @@ int main(void)
 	char lcase;
 	for (lcase='a'; lcase<= 'z'; lcase++)
 		putchar(lcase);
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
