@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - printing different computer types
- * Return ) if exited successfully
+ * Return:0 if exited successfully
  */
 int main(void)
 {
