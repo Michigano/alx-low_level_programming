@@ -1,28 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
-/** main - Executing code for printing numbers with double digits
+/**
+ * main - Executing code for printing numbers with double digits
  * Return: 0 if exited succesffuly
  */
 int main(void)
 {
 	int a, b;
 
-	for (a='0'; a <= '9'; a++)
+	for (a = '0'; a <= '9'; a++)
 	{
-		for (b = '0'; b<= '9'; b++)
+		for (b = a + 1; b <= '9'; b++)
 		{
-			if (a < b)
+			if (b != a)
 			{
 				putchar(a);
 				putchar(b);
-				
-				if (a != '8' || (a == '8' && i !=  '9' ))
-				
-					putchar(',');
-					putchar(' ');
+				if (a == '8' && b == '9')
+					continue;
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
