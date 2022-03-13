@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - printing all possible combinations of two two-digit numbers.
+ * main - Printing all possible combinations of two two-digit numbers
  * Return 0: if exited successfully
  */
 int main(void)
 {
 	int t, d;
 
-	for (t = '0'; t <= '9'; t++)
+	for (t = 0; t <= 98; t++)
 	{
-		for (d = t + 1; d <= '9'; d++)
+		for (d = t + 1; d <= 99; d++)
 		{
 			putchar((t / 10) + '0');
 			putchar((t % 10) + '0');
