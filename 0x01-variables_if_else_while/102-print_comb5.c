@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - Printing all possible combinations of two two-digit numbers
- * Return 0: if exited successfully
+ * Return: 0 if exited successfully
  */
 int main(void)
 {
