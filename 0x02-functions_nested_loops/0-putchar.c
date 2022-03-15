@@ -1,12 +1,12 @@
 #include <unistd.h>
-#include "joshua.h"
+#include "main.h"
 /**
  * main - printing hello word with _putchar
  * Return: 0 if successfull
  */
 int main(void)
 {
-	char word[6] = "Joshua";
+	char word[7] = "_putchar";
 	int i;
 
 	for (i = 0; i < 9; i++)
