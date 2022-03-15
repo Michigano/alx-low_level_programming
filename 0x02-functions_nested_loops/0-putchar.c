@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <main.h>
+#include "joshua.h"
 /**
  * main - printing hello word with _putchar
  * Return: 0 if successfull
