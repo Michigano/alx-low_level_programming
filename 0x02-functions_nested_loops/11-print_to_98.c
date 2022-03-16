@@ -2,7 +2,7 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n: Integer to be printed
- * Return: 0
+ * Return: list of numbers
  */
 void print_to_98(int n)
 {
