@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * main - printing hello word with _putchar
- * Return: 1 if successfull
+ * Return:  if successfull
  */
 int main(void)
 {
@@ -12,5 +12,5 @@ int main(void)
 	for (i = 0; i < 9; i++)
 		_putchar(word[i]);
 	_putchar('\n');
-	//return (1);
+	return (0);
 }
