@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * add - returns the sum of the parameters entered
  * @a: an integer type one
