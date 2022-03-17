@@ -26,7 +26,7 @@ int numLength(int num)
 int main(void)
 {
 	unsigned long f1 = 1;
-	unsigned long f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0, i = 1, initial0s;
+	unsigned long f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo, i = 1, initial0s;
 
 	while (i <= 98)
 	{
