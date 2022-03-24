@@ -1,21 +1,28 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students
- *
- * Return: Always 0
+ * rot13 -  a function that encodes a string using rot13.
+ * @s: An input string to encode using rot13
+ * Return: An encode string
  */
-int main(void)
+
+char *rot13(char *s)
 {
-	 print_number(98);
-	 _putchar('\n');
-	 print_number(402);
-	 _putchar('\n');
-	 print_number(1024);
-	 _putchar('\n');
-	 print_number(0);
-	 _putchar('\n');
-	 print_number(-98);
-	 _putchar('\n');
-	 return (0);
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		while ((s[i] >= 'a' && s[i] <= 'z') ||
+				(s[i] >= 'A' && s[i] <= 'Z'))
+		{
+			if ((s[i] >= 'a' && s[i] <= 'm') ||
+					(s[i] >= 'A' && s[i] <= 'M'))
+				s[i] += 13;
+			else
+				s[i] -= 13;
+			i++;
+		}
+		i++;
+	}
+	return (s);
 }
