@@ -12,6 +12,6 @@ int check_seperators(char c);
 char *leet(char *s);
 char *rot13(char *);
 int _putchar(char c);
-void print_number(int n);i
+void print_number(int n);
 
 #endif
