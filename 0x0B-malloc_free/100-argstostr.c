@@ -1,5 +1,3 @@
-#include "main.h"
-#include <stdlib.h>
 /**
  * argstostr - concatenates arguments.
  * @ac: number of string to be concatenated.
