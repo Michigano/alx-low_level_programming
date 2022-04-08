@@ -37,6 +37,7 @@ return (NULL);
 for (i = 0; i < bytes * size; i++)
 p[i] = 0;
 return ((void *)p);
+:x
 }
 /**
  * add_arrays - adds 2 arrays of ints
@@ -116,9 +117,9 @@ return (sum_result);
  */
 void print_me(int *sum_result, int len_r)
 {
-int i = 0;
-
-while (sum_result[i] == 0 && i < len_r)
+	int i = 0;
+	
+	while (sum_result[i] == 0 && i < len_r)
 		i++;
 if (i == len_r)
 _putchar('0');
